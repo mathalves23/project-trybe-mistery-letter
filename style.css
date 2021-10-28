@@ -1,62 +1,60 @@
 .buttons {
-  display: inline-block
+  display: inline-block;
 }
 
 #criar-carta {
   cursor: pointer;
 }
 
-.newspaper{
-  background-color: rgb(250, 235, 215);
-  font-family: 'Times New Roman';
+.newspaper {
+  background-color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 700;
 }
 
-.magazine1{
-  background-color: rgb(0, 128, 128);
-  color: rgb(255, 255, 255);
-  font-family: Verdana;
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.magazine2{
-  background-image: url("images/pink-pattern.png"); 
-  color: rgb(255, 0, 255);
-  font-family: Verdana;
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.medium{
+.medium {
   font-size: 20px;
   padding: 8px;
 }
 
-.big{
+.big {
   font-size: 30px;
   padding: 10px;
 }
 
-.reallybig{
+.reallybig {
   font-size: 40px;
   padding: 15px;
 }
 
-.rotateleft{ 
-  transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
-
+.rotateleft {
+  transform: matrix(0.996, -0.087, 0.087, 0.996, 0, 0);
 }
 
-.rotateright{
-  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
-  
+.rotateright {
+  transform: matrix(0.99, 0.087, -0.087, 0.996, 0, 0);
 }
 
-.skewleft{
-  transform: matrix(1, 0, 0.176327, 1, 0, 0);
+.skewleft {
+  transform: matrix(1, 0, 0.176, 1, 0, 0);
 }
 
-.skewright{
-  transform: matrix(1, 0, -0.176327, 1, 0, 0);
+.skewright {
+  transform: matrix(1, 0, -0.176, 1, 0, 0);
 }
