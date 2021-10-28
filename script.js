@@ -1,6 +1,7 @@
 const btnCriarCarta = document.querySelector('#criar-carta');
 const inputTexto = document.querySelector('#carta-texto');
 const cartaGerada = document.querySelector('#carta-gerada');
+const paiCarta = document.querySelector('#pai-carta-gerada');
 
 const classes = ['newspaper', 'magazine1', 'magazine2', 'medium', 'big',
   'reallybig', 'rotateleft', 'rotateright', 'skewleft', 'skewright'];
@@ -24,3 +25,12 @@ function addItem() {
   }
 }
 btnCriarCarta.addEventListener('click', addItem);
+
+
+// const criaContador = document.createElement('p');
+// criaContador.innerHTML = contador;
+// criaContador.className = 'carta-contador';
+// paiCarta.appendChild(criaContador);
+
+
+
